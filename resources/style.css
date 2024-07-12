@@ -6,8 +6,52 @@
 }
 
 .nav {
+    background: beige;
+}
+
+.nav ul {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-around;
     margin: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav li {
+    list-style: circle;
+}
+
+main {
+    display: grid;
+    grid-template: repeat (3, 1fr) / repeat(8, 1fr);
+    gap: 10px;
+}
+
+/* these boxes make up the grid items. */
+
+#story {
+    background-color: blue;
+}
+
+#projects {
+    background-color: yellow;
+}
+
+#interests {
+    background-color: green;
+}
+
+#contact {
+    background-color: red;
+}
+
+#photo {
+    background-color: darkorange;
+}
+
+#language {
+    background-color: lightsteelblue;
 }
